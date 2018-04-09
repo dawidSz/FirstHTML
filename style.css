@@ -1,0 +1,112 @@
+﻿
+body 
+{
+	background-color: gray;
+	background-image: url(tlo.jpg);
+}
+table, td, th
+{
+	border: solid black 0px;
+	text-align:center;
+}
+h1
+{
+	text-align:center;
+	color:#660000;
+}
+h3
+{
+	color: white;
+	font-size: 50px;
+}
+textarea
+{
+	width: 365px; 
+	height: 132px
+}
+a:link
+{
+	color: white;
+	text-decoration: none;
+}
+a:visited
+{
+	color:#663300;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #660000;
+	text-decoration: underline;
+}
+@keyframes szerokosc
+{
+  0% { width:150px; }
+  100% { width:1400px; }
+}
+#animacja
+{
+  text-align:center;
+  padding:15px 0;
+  animation:szerokosc 5s ease-in-out 0s infinite alternate backwards;
+}
+
+#pojemnik
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+#header
+{
+	background-image: url(header.jpg);
+	background-color: #cc3300;
+	color: white;
+	text-align: center;
+	height:150px;
+	padding: 15px;
+	border: solid #262626 2px;
+}
+#menu
+{
+	float: left;
+	background-color: #262626;
+	width: 180px;
+	min-height:590px;
+	border-left: solid #262626 3px;
+	border-right: solid #262626 5px;
+	padding: 5px;
+	color: #cc6600;
+	
+}
+#main
+{
+	float: left;
+	background-color: #c7c7c7;
+	width: 780px;
+	min-height:580px;
+	padding: 10px;
+}
+#stopka
+{
+	clear:both;
+	background-color: black;
+	min-height:30px;
+	border: solid #262626 2px;
+	border-top: solid black 2px;
+	color: #9e9e9e;
+}
+.center
+{
+	text-align:center;
+}
+.tekst
+{
+	text-align:center;
+	font-size: 25px;
+}
+.zdjecie
+{
+	width: 40%;
+	heigh: 40%;
+}
